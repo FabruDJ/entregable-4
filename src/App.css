@@ -1,0 +1,135 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.form-container {
+  margin-top: 50px;
+  background-color: #fff;
+  padding: 20px;
+  width: 500px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-title {
+  font-size: 30px;
+  color: #20b2aa;
+  margin-top: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 30px;
+  width: 250px;
+  padding: 2px 8px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: #fff;
+  border: 1px solid #20b2aa;
+}
+
+button {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  margin-top: 10px;
+  width: 110px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.submit-btn {
+  background-color: #20b2aa;
+  color: #fff;
+}
+
+.submit-btn:hover {
+  color: #20b2aa;
+  background-color: #fff;
+  border: 1px solid #20b2aa;
+  cursor: pointer;
+}
+
+.clear-btn {
+  background-color: lightgray;
+}
+
+.clear-btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid lightgray;
+}
+
+.users_list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.users_list-title {
+  color: #fff;
+  font-size: 30px;
+}
+
+.users-container {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  gap: 60px;
+  margin-bottom: 30px;
+}
+
+.user-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.user-name{
+  font-size: 18px;
+}
+
+.user-btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.user-btn {
+  width: 35px;
+  background-color: #fff;
+  color: #20b2aa;
+  border: 1px solid #20b2aa;
+}
+
+.user-btn:hover {
+  background-color: #20b2aa;
+  color: #fff;
+  cursor: pointer;
+}
